@@ -30,8 +30,8 @@ public class Player extends  Entity
     }
     public void setDefaultValues()
     {
-        x = 2 * gp.tileSize;
-        y = 8 * gp.tileSize;
+        x = gp.tileSize + gp.tileSize/2;
+        y = 7 * gp.tileSize + gp.tileSize/2;
         speed = 4;
         direction = "right";
         life = 3;
@@ -231,8 +231,8 @@ public class Player extends  Entity
         if(invincible){
             g2.setComposite(AlphaComposite.getInstance(AlphaComposite.SRC_OVER, 0.5f));
         }
-        g2.fillRect(x,y,gp.tileSize,gp.tileSize);
-        //g2.drawImage(image, x, y, gp.tileSize, gp.tileSize, null);
+        //g2.fillRect(x,y,gp.tileSize,gp.tileSize);
+        g2.drawImage(image, x, y, gp.tileSize, gp.tileSize, null);
 
         g2.setComposite(AlphaComposite.getInstance(AlphaComposite.SRC_OVER, 1f));
     }

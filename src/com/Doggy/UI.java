@@ -204,7 +204,7 @@ public class UI {
     public void drawPlayerLife(Graphics2D g2){
 
         int x = 7 * gp.tileSize + (gp.tileSize)/2;
-        int y = 18 * gp.tileSize + 8;
+        int y = 15 * gp.tileSize + 8;
         int i = 0;
         while (i<gp.player.life){
             g2.drawImage(life_blank,x,y,gp.tileSize,gp.tileSize-8, null);
@@ -213,7 +213,7 @@ public class UI {
         }
 
         x = 7 * gp.tileSize + (gp.tileSize)/2;
-        y = 18 * gp.tileSize + 8;
+        y = 15 * gp.tileSize + 8;
         i = 0;
 
         while(i < gp.player.life){

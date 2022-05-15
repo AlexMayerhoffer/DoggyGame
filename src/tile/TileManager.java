@@ -20,7 +20,7 @@ public class TileManager
     {
         this.gp = gp;
 
-        tile = new Tile[20];
+        tile = new Tile[40];
         map = new int[gp.maxScreenCol][gp.maxScreenRow];
 
         getTileImage();
@@ -107,6 +107,22 @@ public class TileManager
             tile[19] = new Tile();
             tile[19].image = ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream("/map/corner_ul_ur.png")));
             tile[19].collision = true;
+
+            tile[20] = new Tile();
+            tile[20].image = ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream("/map/corner1.png")));
+            tile[20].collision = true;
+
+            tile[21] = new Tile();
+            tile[21].image = ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream("/map/corner2.png")));
+            tile[21].collision = true;
+
+            tile[22] = new Tile();
+            tile[22].image = ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream("/map/corner3.png")));
+            tile[22].collision = true;
+
+            tile[23] = new Tile();
+            tile[23].image = ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream("/map/corner4.png")));
+            tile[23].collision = true;
 
         }catch (IOException e)
         {
