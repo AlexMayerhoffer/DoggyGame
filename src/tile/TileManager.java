@@ -100,6 +100,14 @@ public class TileManager
             tile[17].image = ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream("/map/corner_ll.png")));
             tile[17].collision = true;
 
+            tile[18] = new Tile();
+            tile[18].image = ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream("/map/corner_ll_lr.png")));
+            tile[18].collision = true;
+
+            tile[19] = new Tile();
+            tile[19].image = ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream("/map/corner_ul_ur.png")));
+            tile[19].collision = true;
+
         }catch (IOException e)
         {
             e.printStackTrace();

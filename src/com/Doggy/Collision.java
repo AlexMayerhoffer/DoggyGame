@@ -1,6 +1,7 @@
 package com.Doggy;
 
 import entity.Entity;
+import entity.Player;
 import object.Enemy;
 import object.Hole;
 
@@ -12,11 +13,21 @@ public class Collision {
     }
 
     public void checkTile(Entity entity) {
-        int entityLeftWorldX = entity.x + entity.solidArea.x;
-        int entityRightWorldX = entity.x + entity.solidArea.x + entity.solidArea.width;
-        int entityTopWorldY = entity.y + entity.solidArea.y;
-        int entityBottomWoldY = entity.y + entity.solidArea.y + entity.solidArea.height;
+        int entityLeftWorldX = entity.x;
+        int entityRightWorldX = entity.x + gp.tileSize;
+        int entityTopWorldY = entity.y;
+        int entityBottomWoldY = entity.y + gp.tileSize;
 
+//        System.out.println("EntityLeftWorldX: " + entityLeftWorldX);
+//        System.out.println("EntityRightWorldX: " + entityRightWorldX);
+//        System.out.println("EntityTopWorldY: " + entityTopWorldY);
+//        System.out.println("EntityBottomWoldY: " + entityBottomWoldY);
+
+        if(entity.getClass().toString().equals("class entity.Player")) {
+            System.out.println("X: " + entity.x);
+//            System.out.println("Y: " + entity.y);
+//            System.out.println(entity.speed);
+        }
 
         int entityLeftCol = entityLeftWorldX / gp.tileSize;
         int entityRightCol = entityRightWorldX / gp.tileSize;
@@ -24,6 +35,8 @@ public class Collision {
         int entityBottomRow = entityBottomWoldY / gp.tileSize;
 
         int tileNum1, tileNum2;
+
+
 
         switch (entity.direction) {
             case "up":
@@ -51,7 +64,7 @@ public class Collision {
                 }
                 break;
             case "right":
-                entityRightCol = (entityLeftWorldX + entity.speed) / gp.tileSize;
+                entityRightCol = (entityRightWorldX + entity.speed) / gp.tileSize;
                 tileNum1 = gp.tileM.map[entityRightCol][entityTopRow];
                 tileNum2 = gp.tileM.map[entityRightCol][entityBottomRow];
                 if (gp.tileM.tile[tileNum1].collision || gp.tileM.tile[tileNum2].collision) {

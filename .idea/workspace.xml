@@ -4,67 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a9484c4-c5b1-429c-bfdb-6f952e36ed2b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DoggyMaze.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/enemies/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/enemies/10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/enemies/11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/enemies/19.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/enemies/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/enemies/21.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/enemies/34.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/enemies/36.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/enemies/hole.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/map/13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/map/b.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/map/b1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/map/b2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/map/b3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/map/bd.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/map/bd1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/map/bd2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/map/bl.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/map/bl1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/map/br.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/map/br1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/map/bu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/map/bu1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/map/bu2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/map/corner_ll.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/map/corner_lr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/map/corner_ul.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/map/corner_ur.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/map/os.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/sprites/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/sprites/10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/sprites/12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/sprites/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/sprites/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/sprites/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/sprites/7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/sprites/9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/sprites/b.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/sprites/map.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/sprites/paw.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Doggy/AssetSetter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Doggy/Collision.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Doggy/GamePanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Doggy/Keys.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Doggy/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Doggy/UI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entity/Entity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entity/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/object/Enemy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/object/Hole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/object/Life.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/object/Object.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tile/Tile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tile/TileManager.java" afterDir="false" />
+    <list default="true" id="0a9484c4-c5b1-429c-bfdb-6f952e36ed2b" name="Changes" comment="Started map rebuild">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/sprites/map.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/sprites/map.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Doggy/Collision.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Doggy/Collision.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tile/TileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tile/TileManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,8 +82,16 @@
       <option name="presentableId" value="Default" />
       <updated>1652624462951</updated>
       <workItem from="1652624464329" duration="7000" />
-      <workItem from="1652624504178" duration="7389000" />
+      <workItem from="1652624504178" duration="14064000" />
     </task>
+    <task id="LOCAL-00001" summary="Started map rebuild">
+      <created>1652632434513</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1652632434513</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,5 +110,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Started map rebuild" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started map rebuild" />
   </component>
 </project>
