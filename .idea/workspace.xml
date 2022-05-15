@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0a9484c4-c5b1-429c-bfdb-6f952e36ed2b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DoggyMaze.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/enemies/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/enemies/10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/enemies/11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/enemies/19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/enemies/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/enemies/21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/enemies/34.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/enemies/36.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/enemies/hole.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/map/13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/map/b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/map/b1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/map/b2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/map/b3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/map/bd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/map/bd1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/map/bd2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/map/bl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/map/bl1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/map/br.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/map/br1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/map/bu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/map/bu1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/map/bu2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/map/corner_ll.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/map/corner_lr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/map/corner_ul.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/map/corner_ur.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/map/os.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/sprites/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/sprites/10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/sprites/12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/sprites/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/sprites/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/sprites/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/sprites/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/sprites/9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/sprites/b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/sprites/map.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/sprites/paw.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Doggy/AssetSetter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Doggy/Collision.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Doggy/GamePanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Doggy/Keys.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Doggy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Doggy/UI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/object/Enemy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/object/Hole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/object/Life.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/object/Object.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tile/Tile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tile/TileManager.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="29CkTWNlis0n779aNM8PHOQ6vG5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ottoa\IdeaProjects\DoggyMaze" />
+      <recent name="C:\Users\ottoa\IdeaProjects\DoggyMaze\src" />
+      <recent name="C:\Users\ottoa\IdeaProjects\DoggyMaze\Resources\map" />
+      <recent name="C:\Users\ottoa\IdeaProjects\DoggyMaze\Resources" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Doggy.Main" />
+      <module name="DoggyMaze" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Doggy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0a9484c4-c5b1-429c-bfdb-6f952e36ed2b" name="Changes" comment="" />
+      <created>1652624462951</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1652624462951</updated>
+      <workItem from="1652624464329" duration="7000" />
+      <workItem from="1652624504178" duration="7389000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
